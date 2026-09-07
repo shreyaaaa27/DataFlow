@@ -1,0 +1,52 @@
+
+--- orders (99441 rows) ---
+Nulls per column:
+ order_approved_at                 160
+order_delivered_carrier_date     1783
+order_delivered_customer_date    2965
+dtype: int64
+Duplicate rows: 0
+
+--- customers (99441 rows) ---
+Nulls per column:
+ Series([], dtype: int64)
+Duplicate rows: 0
+
+--- order_items (112650 rows) ---
+Nulls per column:
+ Series([], dtype: int64)
+Duplicate rows: 0
+
+--- order_payments (103886 rows) ---
+Nulls per column:
+ Series([], dtype: int64)
+Duplicate rows: 0
+
+--- order_reviews (99224 rows) ---
+Nulls per column:
+ review_comment_title      87656
+review_comment_message    58247
+dtype: int64
+Duplicate rows: 0
+
+--- products (32951 rows) ---
+Nulls per column:
+ product_category_name         610
+product_name_lenght           610
+product_description_lenght    610
+product_photos_qty            610
+product_weight_g                2
+product_length_cm               2
+product_height_cm               2
+product_width_cm                2
+dtype: int64
+Duplicate rows: 0
+
+--- sellers (3095 rows) ---
+Nulls per column:
+ Series([], dtype: int64)
+Duplicate rows: 0
+
+--- Relationship Verification ---
+order_reviews duplicate order_ids: 551
+Cardinality confirmed: orders -> order_reviews is 1-to-Many (1:N)
