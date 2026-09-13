@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "cd12cf4e-0eb2-45da-87c0-fc8698d2e841",
+      "name": "fct_orders"
+    },
+    "batch_definition": {
+      "id": "d9b07893-8d68-4342-9d36-5f964dcbd116",
+      "name": "fct_orders_batch"
+    },
+    "datasource": {
+      "id": "f1a5d76c-652f-45d6-a303-66b3e1c55a85",
+      "name": "dataflow_postgres"
+    }
+  },
+  "id": "96a7e702-3846-4ed9-bf27-cb114053a71f",
+  "name": "fct_orders_validation",
+  "suite": {
+    "id": "fb895fca-5db6-4256-8893-f92d14b035b7",
+    "name": "fct_orders_suite"
+  }
+}
