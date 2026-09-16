@@ -20,3 +20,7 @@ models:
   dataflow:
     staging:
       +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table   # ADD THIS — fact/dim tables should be real tables, not views

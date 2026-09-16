@@ -11,9 +11,8 @@ models:
         tests:
           - not_null
           - relationships:
-              arguments:
-                to: ref('dim_customers')
-                field: customer_id
+              to: ref('dim_customers')
+              field: customer_id
 
   - name: dim_customers
     columns:

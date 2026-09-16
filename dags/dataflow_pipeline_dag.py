@@ -2,8 +2,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from datetime import datetime
-from extract_load_dag import load_table, TABLES
-
+from etl_helpers import load_table, TABLES
 
 def run_ge_validation():
     import subprocess

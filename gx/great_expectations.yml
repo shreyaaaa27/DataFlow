@@ -96,6 +96,6 @@ fluent_datasources:
         table_name: fct_orders
         schema_name: public
     connection_string: 
-      postgresql+psycopg2://dataflow:dataflow@localhost:5432/dataflow
+      postgresql+psycopg2://dataflow:dataflow@postgres:5432/dataflow
 analytics_enabled:
 data_context_id: f2c4c7e0-7606-434b-ac30-ffb2b936078f

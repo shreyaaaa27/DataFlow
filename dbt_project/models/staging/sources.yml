@@ -11,3 +11,4 @@ sources:
       - name: order_reviews
       - name: products
       - name: sellers
+      - name: product_category_name_translation   # ADD THIS

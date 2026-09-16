@@ -10,4 +10,4 @@ USER airflow
 
 RUN pip install --no-cache-dir \
     --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.2/constraints-3.12.txt" \
-    dbt-postgres==1.8.0 dbt-core==1.8.0 great-expectations==0.18.19 pandas sqlalchemy
+    dbt-postgres==1.8.0 dbt-core==1.8.0 great-expectations==1.8.1 pandas sqlalchemy

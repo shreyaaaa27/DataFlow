@@ -1,2 +1,5 @@
 data/raw/*.csv
 logs/
+venv/
+dbt_venv/
+gx/uncommitted/

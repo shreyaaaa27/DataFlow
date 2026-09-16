@@ -3,7 +3,7 @@ dataflow:
   outputs:
     dev:
       type: postgres
-      host: localhost
+      host: postgres
       user: dataflow
       password: dataflow
       port: 5432

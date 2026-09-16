@@ -1,6 +1,6 @@
 import great_expectations as gx
 
-context = gx.get_context(mode="file", project_root_dir=".")
+context = gx.get_context(mode="file", project_root_dir="/opt/airflow")
 
 datasource = context.data_sources.get("dataflow_postgres")
 asset = datasource.get_asset("fct_orders")
