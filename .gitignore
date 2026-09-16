@@ -3,3 +3,6 @@ logs/
 venv/
 dbt_venv/
 gx/uncommitted/
+dbt_project/target/
+*.duckdb
+data/raw/*.csv
